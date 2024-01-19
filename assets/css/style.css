@@ -127,7 +127,7 @@ nav button {
 
 nav a {
   color: white;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .flex-container {
@@ -146,6 +146,7 @@ nav a {
 .links {
   width: 60%;
   justify-content: center;
+  gap: 40px;
 }
 
 .logo {
