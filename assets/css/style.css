@@ -9,6 +9,13 @@ a {
   color: black;
 }
 
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -27,7 +34,7 @@ body {
 /* #region DEBUG */
 
 .debug nav {
-  height: 80px;
+  /* height: 80px; */
 }
 
 .debug header {
@@ -41,7 +48,7 @@ body {
 .debug .logo,
 .links,
 .login {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
 }
 
 .debug .header-section {
@@ -106,26 +113,39 @@ footer {
 /* #region NAV */
 
 nav {
-  background-color: aquamarine;
+  background-color: var(--header-blue);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.1rem;
+}
+
+nav button {
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: white;
+  padding: 0 20px;
 }
 
 .flex-container {
   display: flex;
-  background-color: orange;
+  margin-top: 30px;
 }
 
 .logo,
 .links,
 .login {
-  padding: 10px;
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
 }
 
 .links {
   width: 60%;
-  text-align: center;
+  justify-content: center;
 }
 
 .logo {
@@ -134,7 +154,7 @@ nav {
 
 .login {
   flex-grow: 1;
-  text-align: right;
+  justify-content: flex-end;
 }
 
 /* #endregion NAV */
