@@ -85,16 +85,16 @@ footer {
 }
 
 .debug .upper-footer {
-  height: 80%;
+  /* height: 80%; */
 }
 
 .debug .socials,
 .footer-links-menu {
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
 }
 
 .debug .menu-column {
-  border: 2px dashed white;
+  /* border: 2px dashed white; */
 }
 
 .debug .outer-lower-footer {
@@ -334,6 +334,7 @@ footer {
 
 .socials {
   width: 30%;
+  margin-right: 30px;
 }
 
 .socials h3 {
@@ -375,6 +376,18 @@ footer {
 
 .menu-column {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  color: var(--footer-txt);
+  margin-bottom: 8px;
+}
+
+.menu-link {
+  color: #fff;
+  margin-bottom: 8px;
 }
 
 .outer-lower-footer {
