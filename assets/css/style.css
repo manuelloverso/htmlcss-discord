@@ -16,6 +16,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  box-shadow: 0 7px 20px 4px #00000085;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -137,9 +141,17 @@ nav button {
   font-size: 1.1rem;
 }
 
+nav button:hover {
+  color: var(--footer-txt);
+}
+
 nav a {
   color: white;
   /* padding: 0 20px; */
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .flex-container {
@@ -165,6 +177,10 @@ nav a {
 
 .logo {
   flex-grow: 1;
+}
+
+.logo img {
+  cursor: pointer;
 }
 
 .login {
@@ -210,6 +226,9 @@ header {
   font-weight: 500;
   padding: 15px 25px;
   border-radius: 30px;
+}
+.header-section button:hover {
+  color: var(--footer-txt);
 }
 
 .download {
@@ -421,6 +440,10 @@ footer {
   align-items: flex-end;
   height: 80px;
   border-top: 1px solid var(--footer-blue);
+}
+
+.footer-logo {
+  cursor: pointer;
 }
 
 .logo-signup {
