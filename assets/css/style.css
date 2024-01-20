@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  width: 60%;
+  width: 70%;
 }
 
 .wave {
@@ -255,10 +255,20 @@ header {
 
 .pic {
   width: 65%;
+  margin-right: 40px;
+}
+
+.margin-left {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+.pic img {
+  /* width: 100%; */
 }
 
 .txt {
-  width: 35%;
+  flex-grow: 1;
   color: var(--text-grey);
   padding-top: 20px;
 }
